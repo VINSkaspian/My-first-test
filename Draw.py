@@ -1,15 +1,16 @@
-from turtle import
+from turtle import *
 
 bgcolor("black")
 speed(0)
 hideturtle()
 
-for i in range(120):
-    color("red")
+for i in range(160):
+    color("brown")
     circle(i)
-    color("orange")
-    circle(i*0.8)
+    color("green")
+    circle(i*2.8)
     right(3)
-    forward(3)
+    left(6)
+    forward(6)
 
-done()    
+done()  
